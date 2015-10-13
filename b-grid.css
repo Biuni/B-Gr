@@ -1,0 +1,109 @@
+/*
+ * B-Grid v1.0.1 (http://www.biuni.it/b-grid/)
+ * Copyright 2011-2015 | Biuni - Gianluca Bonifazi
+ * Licensed under MIT
+ */
+
+/* Reset */
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box
+}
+
+/* Container Grid */
+.container
+{
+    width:90%;
+    margin:0 auto
+}
+
+.container-full
+{
+    width:100%;
+    margin:0 auto
+}
+
+/* Grid Coloumn 1 */
+.column-1
+{
+    width:8.3333%;
+    float:left
+}
+
+.column-1:after:last-child
+{
+    clear:both
+}
+
+/* Grid Coloumn 2 */
+.column-2
+{
+    width:16.6666%;
+    float:left
+}
+
+.column-2:after:last-child
+{
+    clear:both
+}
+
+/* Grid Coloumn 4 */
+.column-4
+{
+    width:33.3333%;
+    float:left
+}
+
+.column-4:after:last-child
+{
+    clear:both
+}
+
+/* Grid Coloumn 6 */
+.column-6
+{
+    width:50%;
+    float:left
+}
+
+.column-6:after:last-child
+{
+    clear:both
+}
+
+/* Grid Coloumn 8 */
+.column-8
+{
+    width:66.6666%;
+    float:left
+}
+
+.column-8:after:last-child
+{
+    clear:both
+}
+
+/* Grid Coloumn 10 */
+.column-10
+{
+    width:91.6666%;
+    float:left
+}
+
+.column-10:after:last-child
+{
+    clear:both
+}
+
+/* Media Query */
+@media only screen and (max-width:61.875em) {
+    div[class^="column-"]
+    {
+        width:100%;
+        float:none
+    }
+}
